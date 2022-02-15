@@ -12,7 +12,7 @@ const App = () => {
 
   const [showAddTask, setShowAddTask] = useState(false)
 
-  console.log("Hello World");
+  console.log("Hello World Again");
 
   useEffect(() => {
     const getTasks = async () => {
