@@ -12,6 +12,8 @@ const App = () => {
 
   const [showAddTask, setShowAddTask] = useState(false)
 
+  console.log("Hello World");
+
   useEffect(() => {
     const getTasks = async () => {
       const tasksFromServer = await fetchTasks()
